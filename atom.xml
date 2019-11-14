@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yousaer.top/"/>
-  <updated>2019-08-14T07:12:17.564Z</updated>
+  <updated>2019-11-14T11:56:55.001Z</updated>
   <id>http://yousaer.top/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>信息收集</title>
+    <link href="http://yousaer.top/2019/11/14/%E4%BF%A1%E6%81%AF%E6%94%B6%E9%9B%86/"/>
+    <id>http://yousaer.top/2019/11/14/信息收集/</id>
+    <published>2019-11-14T11:54:29.000Z</published>
+    <updated>2019-11-14T11:56:55.001Z</updated>
+    
+    <content type="html"><![CDATA[<p>whois查询：whoisdignslookup<br>ip定位：<a href="http://www.ip2location.comwww.maxmind.comwww.cz88.nethttp://www.chaipip.com/" target="_blank" rel="noopener">www.ip2location.comwww.maxmind.comwww.cz88.nethttp://www.chaipip.com/</a><br>网站信息查询：searchdns.netcraft.com<a href="https://toolbar.netcraft.com/site_reportIP2domain" target="_blank" rel="noopener">https://toolbar.netcraft.com/site_reportIP2domain</a><br>反向查询：<a href="https://www.ip-address.com/reverse-ip-lookup" target="_blank" rel="noopener">https://www.ip-address.com/reverse-ip-lookup</a></p><p>google hacking<br>|——特定目录<br>|——特定文件夹<br>|——注入点</p><p>metasploit平台工具<br>|——brute_dirs<br>|——dir_listing<br>|——dir_scanner<br>|——search_email_collector</p><p>搜索引擎<br>google常见语法：site：、inurl：、intext：、filetype：<br>shodan引擎<a href="http://www.shodan.io：" target="_blank" rel="noopener">www.shodan.io：</a> 搜索物联网设备</p><p>Shodan语法<br>|hostname——搜索指定的主机或域名，例如 hostname：baidu<br>|port————搜索指定的端口或服务，例如 port：80<br>|country——–搜索指定的国家，例如 country：US<br>|city————-搜索指定的城市，例如 city：Changsha<br>|org————-搜索指定的组织或公司，例如 org：”Google”<br>|isp————–搜索指定的ISP供应商，例如 isp：”China Telecom”<br>|product——–搜索指定的操作系统/软件/平台，例如 product：”Apache httpd”<br>|version———搜索指定的软件版本，例如 version：”1.6.2”<br>|geo————-搜索指定的地理位置，参数为经纬度，例如 geo：”31.8639，117.2808”<br>|before/after—-搜索指定收录时间前后的数据，格式为dd-mm-yy，例如 before：”11-11-15”<br>|net————–搜索指定的IP地址或子网，例如 net：”210.45.240.0/24”</p><p>主机查询<br>ping/tracert、arp-scan、nmap</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">Nmap</span><br><span class="line">-sn，只检查是否服务器响应ICMP请求</span><br><span class="line">-sV，请求每个被发现的开放端口的标识</span><br><span class="line">-O，尝试猜测运行在目标上的操作系统</span><br><span class="line">-sT,强制执行完全连接扫描，会留日志且慢，但不太容易被入侵检测系统检测到</span><br><span class="line">-Pn、跳过ping测试</span><br><span class="line">-p、指定测试特定端口</span><br><span class="line">-v、开启详细模式，次数越多越详细（-vv、-v -v -v）</span><br><span class="line">--script=scripte_name、使用脚本进行查询， https://nmap.org/nsedoc/scripts/有需要的脚本</span><br><span class="line">例如检测WAF的存在</span><br></pre></td></tr></table></figure><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">nmap -p 80，443 --script=http-waf-detect 192.168.1.1</span><br><span class="line">//检测是否有WAF存在</span><br><span class="line">nmap -p 80,443 --script=http-waf-fingerprint 192.168.1.1</span><br><span class="line">//检测是服务器存在WAF的型号</span><br></pre></td></tr></table></figure><p>其他工具例如 wafw00f 也可以检测WAF</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;whois查询：whoisdignslookup&lt;br&gt;ip定位：&lt;a href=&quot;http://www.ip2location.comwww.maxmind.comwww.cz88.nethttp://www.chaipip.com/&quot; target=&quot;_blank&quot; r
+      
+    
+    </summary>
+    
+    
+      <category term="渗透" scheme="http://yousaer.top/tags/%E6%B8%97%E9%80%8F/"/>
+    
+  </entry>
   
   <entry>
     <title>Start</title>
